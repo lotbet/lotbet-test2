@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle lotbet-test2",
+        "command": "lotbet-test2:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "lotbet-test2",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "lotbet-test2:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
